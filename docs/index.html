@@ -13,11 +13,18 @@
     <h1>Tic-tac-toe</h1>
   </header>
   <div class="main flex justify-center items-center bg-blue-300 flex-1">
-    <div class="game flex-col">
+    <div class="game flex flex-col items-center">
+      <div class="info text-center text-4xl mb-10">
+        "X" Turn
+      </div>
       <div class="row1 flex">
-        <div class="area w-24 h-24 border-r-black border-b-black border-b border-r flex items-center justify-center text-5xl"></div>
+        <div
+          class="area w-24 h-24 border-r-black border-b-black border-b border-r flex items-center justify-center text-5xl">
+        </div>
         <div class="area w-24 h-24 border-b-black border-b flex items-center justify-center text-5xl"></div>
-        <div class="area w-24 h-24 border-l-black border-b-black border-b border-l flex items-center justify-center text-5xl"></div>
+        <div
+          class="area w-24 h-24 border-l-black border-b-black border-b border-l flex items-center justify-center text-5xl">
+        </div>
       </div>
       <div class="row1 flex">
         <div class="area w-24 h-24 border-r-black border-r flex items-center justify-center text-5xl"></div>
@@ -25,10 +32,15 @@
         <div class="area w-24 h-24 border-l-black border-l flex items-center justify-center text-5xl"></div>
       </div>
       <div class="row1 flex">
-        <div class="area w-24 h-24 border-r-black border-t-black border-t border-r flex items-center justify-center text-5xl"></div>
+        <div
+          class="area w-24 h-24 border-r-black border-t-black border-t border-r flex items-center justify-center text-5xl">
+        </div>
         <div class="area w-24 h-24 border-t-black border-t flex items-center justify-center text-5xl"></div>
-        <div class="area w-24 h-24 border-l-black border-t-black border-t border-l flex items-center justify-center text-5xl"></div>
+        <div
+          class="area w-24 h-24 border-l-black border-t-black border-t border-l flex items-center justify-center text-5xl">
+        </div>
       </div>
+      <button class="restart py-4 px-8 my-5 bg-red-300">Restart</button>
     </div>
   </div>
   <script src="index.js"></script>
