@@ -82,6 +82,8 @@ function check(board) {
     if (board[a] !== null && board[a] === board[b] && board[a] === board[c]) {
       info.textContent = "Winner: " + board[a];
       return true;
+    } else if(board[8] != null) {
+      info.textContent = "It's a tie";
     }
   }
   return false;
